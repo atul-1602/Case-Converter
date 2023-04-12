@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(66, 62, 62);
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.navbar h1{
+    box-shadow: 5px 5px  rgb(5, 94, 146);
+    color: white;
+    margin-right: 5rem;
+}
+@media (max-width<900px) {
+    .navbar h1{
+        font-size: .1rem;
+        font-weight: bold;
+    }
+    
+}
